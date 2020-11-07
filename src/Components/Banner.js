@@ -13,7 +13,7 @@ const Banner = () => {
 						<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
 					</Link>
 					<a
-						className="btn bg-red text-white px-md-5 py-md-2 shadow-lg"
+						className="btn bg-red text-white px-md-5 py-md-2 shadow-lg mt-3 mt-md-auto"
 						href="http://stalwartuniversityinstitute.com/"
 						rel="noreferrer"
 						target="_blank"
