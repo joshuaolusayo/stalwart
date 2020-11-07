@@ -9,7 +9,7 @@ const Banner = () => {
 		>
 			<div className="container-fluid">
 				<Link to="/">
-					<img className="logo" src="/images/logo.png" alt="Logo" />
+					<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
 				</Link>
 				<div className="row h-100 align-items-center banner__row mx-0">
 					<div className="col-sm-10 mx-auto col-md-6 ml-md-0 px-lg-5">

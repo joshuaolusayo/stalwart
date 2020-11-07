@@ -17,7 +17,7 @@ const Authenticate = () => {
 
 			<div className="row no-gutters px-sm-0">
 				<div className="col-sm-6 box">
-					<img className="w-100 h-100" src="/images/student.jpg" alt="" />
+					<img className="w-100 h-100" loading="lazy" src="/images/student.jpg" alt="" />
 					<div className="overlay w-100 h-100 d-flex justify-content-center align-items-center text-center">
 						<div>
 							<h2 className="mb-sm-4 font-montserrat">STUDENT</h2>
@@ -28,7 +28,7 @@ const Authenticate = () => {
 					</div>
 				</div>
 				<div className="col-sm-6 box">
-					<img className="w-100 h-100" src="/images/staff.jpg" alt="" />
+					<img className="w-100 h-100" loading="lazy" src="/images/staff.jpg" alt="" />
 					<div className="overlay w-100 h-100 d-flex justify-content-center align-items-center text-center">
 						<div>
 							<h2 className="mb-sm-4 font-montserrat">STAFF</h2>
