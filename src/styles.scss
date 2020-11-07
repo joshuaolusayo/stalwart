@@ -1,0 +1,114 @@
+$blue: #272f54;
+$red: #a22531;
+
+body {
+	font-family: "PT Serif", serif;
+	color: #fff;
+
+	@media screen and (min-width: 768px) {
+		font-size: 120%;
+	}
+
+	// @media screen and (min-width: 1024px) {
+	//     font-size: 140%;
+	// }
+}
+
+.font-montserrat {
+	font-family: "Montserrat", sans-serif;
+}
+
+.text-blue {
+	color: $blue;
+}
+
+.bg-blue {
+	background-color: $blue;
+}
+
+.text-red {
+	color: $red;
+}
+
+.bg-red {
+	background-color: $red;
+}
+
+.bg-black {
+	background-color: #000;
+}
+
+.banner {
+	height: 500px;
+	background-size: cover !important;
+	// background-position: left center !important;
+	background-position: 75% 50% !important;
+	position: relative;
+
+	.logo {
+		width: 15rem;
+		height: auto;
+	}
+
+	&__row {
+		position: absolute;
+		top: 1rem;
+		left: 0;
+		right: 0;
+	}
+}
+
+.auth {
+	img {
+		object-fit: cover;
+	}
+
+	.box {
+		position: relative;
+		height: 15rem;
+
+		@media screen and (min-width: 768px) {
+			height: 20rem;
+		}
+
+		@media screen and (min-width: 1024px) {
+			height: 30rem;
+		}
+
+		.overlay {
+			position: absolute;
+			top: 0;
+			background-color: rgba(162, 37, 49, 0.5);
+			transition: all 300ms ease-in;
+
+			&:hover {
+				background-color: rgba(39, 47, 84, 0.5);
+			}
+
+			h2 {
+				font-size: 2rem;
+
+				@media screen and (min-width: 768px) {
+					font-size: 3rem;
+				}
+			}
+
+			a {
+				color: $red;
+				background-color: #fff;
+				transition: all 300ms ease-in;
+
+				&:hover {
+					background-color: $red;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.footer a {
+	&:hover {
+		color: $red;
+	}
+}
