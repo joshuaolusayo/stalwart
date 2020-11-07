@@ -8,19 +8,26 @@ const Banner = () => {
 			style={{ background: `linear-gradient(to right, rgba(0,0,0,.9), rgba(0,0,0,.3)), url("/images/banner.jpg")` }}
 		>
 			<div className="container-fluid">
-				<Link to="/">
-					<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
-				</Link>
-				<div className="row h-100 align-items-center banner__row mx-0">
+				<div className="main d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between align-items-center">
+					<Link to="/">
+						<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
+					</Link>
+					<a
+						className="btn bg-red text-white px-md-5 py-md-2 shadow-lg"
+						href="http://stalwartuniversityinstitute.com/"
+						rel="noreferrer"
+						target="_blank"
+					>
+						Visit the main website
+					</a>
+				</div>
+
+				<div className="row align-items-center banner__row mx-0">
 					<div className="col-sm-10 mx-auto col-md-6 ml-md-0 px-lg-5">
-						<h1 className="font-montserrat">Stalwart Univeristy Portal</h1>
+						<h1 className="font-montserrat">SIS Portal</h1>
 						<p>Welcome to Stalwart University Institute Portal.</p>
 						<p className="font-italic">
-							All services on this portal are restricted, hence, only authenticated users can access them. Please{" "}
-							<span className="text-red" id="#auth">
-								login
-							</span>
-							.
+							All services on this portal are restricted, hence, only authenticated users can access them.
 						</p>
 					</div>
 				</div>

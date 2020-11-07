@@ -40,8 +40,12 @@ body {
   position: relative;
 }
 
-.banner .main:hover {
-  background: #272f54 !important;
+.banner .main a {
+  transition: all 300ms ease-in;
+}
+
+.banner .main a:hover {
+  background: #272f54;
 }
 
 .banner .logo {
@@ -51,27 +55,9 @@ body {
 
 .banner__row {
   position: absolute;
-  top: 1rem;
   left: 0;
   right: 0;
-}
-
-.auth {
-  position: relative;
-}
-
-.auth .main {
-  position: absolute;
-  z-index: 1;
-  top: -20px;
-}
-
-.auth .main a {
-  transition: all 300ms ease-in;
-}
-
-.auth .main a:hover {
-  background: #272f54;
+  height: 80%;
 }
 
 .auth img {

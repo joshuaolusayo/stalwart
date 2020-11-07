@@ -41,8 +41,12 @@ body {
 	position: relative;
 
 	.main {
-		&:hover {
-			background: $blue !important;
+		a {
+			transition: all 300ms ease-in;
+
+			&:hover {
+				background: $blue;
+			}
 		}
 	}
 
@@ -53,29 +57,13 @@ body {
 
 	&__row {
 		position: absolute;
-		top: 1rem;
 		left: 0;
 		right: 0;
+		height: 80%;
 	}
 }
 
 .auth {
-	position: relative;
-
-	.main {
-		position: absolute;
-		z-index: 1;
-		top: -20px;
-
-		a {
-			transition: all 300ms ease-in;
-
-			&:hover {
-				background: $blue;
-			}
-		}
-	}
-
 	img {
 		object-fit: cover;
 	}
