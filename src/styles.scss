@@ -5,13 +5,9 @@ body {
 	font-family: "PT Serif", serif;
 	color: #fff;
 
-	@media screen and (min-width: 768px) {
-		font-size: 120%;
+	@media screen and (min-width: 1024px) {
+		font-size: 110%;
 	}
-
-	// @media screen and (min-width: 1024px) {
-	//     font-size: 140%;
-	// }
 }
 
 .font-montserrat {
@@ -39,11 +35,16 @@ body {
 }
 
 .banner {
-	height: 500px;
+	height: 80vh;
 	background-size: cover !important;
-	// background-position: left center !important;
 	background-position: 75% 50% !important;
 	position: relative;
+
+	.main {
+		&:hover {
+			background: $blue !important;
+		}
+	}
 
 	.logo {
 		width: 15rem;
@@ -59,6 +60,22 @@ body {
 }
 
 .auth {
+	position: relative;
+
+	.main {
+		position: absolute;
+		z-index: 1;
+		top: -20px;
+
+		a {
+			transition: all 300ms ease-in;
+
+			&:hover {
+				background: $blue;
+			}
+		}
+	}
+
 	img {
 		object-fit: cover;
 	}
@@ -94,13 +111,11 @@ body {
 			}
 
 			a {
-				color: $red;
-				background-color: #fff;
 				transition: all 300ms ease-in;
 
 				&:hover {
-					background-color: $red;
-					color: #fff;
+					background-color: $red !important;
+					color: #fff !important;
 				}
 			}
 		}
@@ -108,7 +123,9 @@ body {
 }
 
 .footer a {
+	transition: all 300ms ease-in;
+
 	&:hover {
-		color: $red;
+		color: #fff;
 	}
 }

@@ -3,9 +3,9 @@ body {
   color: #fff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   body {
-    font-size: 120%;
+    font-size: 110%;
   }
 }
 
@@ -34,10 +34,14 @@ body {
 }
 
 .banner {
-  height: 500px;
+  height: 80vh;
   background-size: cover !important;
   background-position: 75% 50% !important;
   position: relative;
+}
+
+.banner .main:hover {
+  background: #272f54 !important;
 }
 
 .banner .logo {
@@ -50,6 +54,24 @@ body {
   top: 1rem;
   left: 0;
   right: 0;
+}
+
+.auth {
+  position: relative;
+}
+
+.auth .main {
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+}
+
+.auth .main a {
+  transition: all 300ms ease-in;
+}
+
+.auth .main a:hover {
+  background: #272f54;
 }
 
 .auth img {
@@ -95,16 +117,18 @@ body {
 }
 
 .auth .box .overlay a {
-  color: #a22531;
-  background-color: #fff;
   transition: all 300ms ease-in;
 }
 
 .auth .box .overlay a:hover {
-  background-color: #a22531;
-  color: #fff;
+  background-color: #a22531 !important;
+  color: #fff !important;
+}
+
+.footer a {
+  transition: all 300ms ease-in;
 }
 
 .footer a:hover {
-  color: #a22531;
+  color: #fff;
 }
