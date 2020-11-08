@@ -23,7 +23,7 @@ const Banner = () => {
 				</div>
 
 				<div className="row align-items-center banner__row mx-0">
-					<div className="col-sm-10 mx-auto col-md-6 ml-md-0 px-lg-5">
+					<div className="col-sm-10 mx-auto col-lg-6 ml-md-0 px-lg-5">
 						<h1 className="font-montserrat">SIS Portal</h1>
 						<p>Welcome to Stalwart University Institute Portal.</p>
 						<p className="font-italic">
