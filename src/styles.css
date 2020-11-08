@@ -69,13 +69,13 @@ body {
   height: 15rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
   .auth .box {
-    height: 20rem;
+    height: 22rem;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .auth .box {
     height: 30rem;
   }
