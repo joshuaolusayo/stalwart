@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Banner = () => {
 	return (
@@ -9,11 +8,9 @@ const Banner = () => {
 		>
 			<div className="container-fluid">
 				<div className="main d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between align-items-center">
-					<Link to="/">
-						<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
-					</Link>
+					<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
 					<a
-						className="btn bg-red text-white px-md-5 py-md-2 shadow-lg mt-3 mt-md-auto"
+						className="btn bg-red text-white px-md-5 py-md-2 shadow-lg mt-3 mt-sm-0"
 						href="http://stalwartuniversityinstitute.com/"
 						rel="noreferrer"
 						target="_blank"

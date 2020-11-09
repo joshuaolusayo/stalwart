@@ -45,7 +45,8 @@ body {
 }
 
 .banner .main a:hover {
-  background: #272f54;
+  background: #fff;
+  color: #a22531 !important;
 }
 
 .banner .logo {

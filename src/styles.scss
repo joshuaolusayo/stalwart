@@ -45,7 +45,8 @@ body {
 			transition: all 300ms ease-in;
 
 			&:hover {
-				background: $blue;
+				background: #fff;
+				color: $red !important;
 			}
 		}
 	}

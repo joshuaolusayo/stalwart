@@ -10,7 +10,7 @@ const Authenticate = () => {
 						<div>
 							<h2 className="mb-lg-4 font-montserrat">STUDENT</h2>
 							<a
-								className="btn rounded p-2 px-lg-4 py-lg-2 bg-white text-red"
+								className="btn rounded px-3 px-md-5 py-2 bg-white text-red"
 								href="http://portal.stalwartuniversityinstitute.com/student/login"
 							>
 								LOGIN
@@ -24,7 +24,7 @@ const Authenticate = () => {
 						<div>
 							<h2 className="mb-lg-4 font-montserrat">STAFF</h2>
 							<a
-								className="btn rounded p-2 px-lg-4 py-lg-2 bg-white text-red"
+								className="btn rounded px-3 px-md-5 py-2 bg-white text-red"
 								href="http://portal.stalwartuniversityinstitute.com/staff/login"
 							>
 								LOGIN
