@@ -10,7 +10,7 @@ const Banner = () => {
 				<div className="main d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
 					<img className="logo" src="/images/logo.png" alt="Logo" loading="lazy" />
 					<a
-						className="btn bg-red text-white px-md-5 py-md-2 shadow-lg mt-3 mt-md-0"
+						className="btn bg-red text-white px-md-5 py-md-3 shadow-lg mt-3 mt-md-0"
 						href="http://stalwartuniversityinstitute.com/"
 						rel="noreferrer"
 						target="_blank"

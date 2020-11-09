@@ -71,18 +71,12 @@ body {
 
 .auth .box {
   position: relative;
-  height: 15rem;
+  height: 20rem;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 992px) {
   .auth .box {
-    height: 22rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .auth .box {
-    height: 30rem;
+    height: 25rem;
   }
 }
 
