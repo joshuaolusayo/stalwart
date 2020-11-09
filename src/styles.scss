@@ -35,7 +35,7 @@ body {
 }
 
 .banner {
-	height: 80vh;
+	height: 45rem;
 	background-size: cover !important;
 	background-position: 75% 50% !important;
 	position: relative;
@@ -56,11 +56,15 @@ body {
 		height: auto;
 	}
 
+	.container {
+		position: relative;
+	}
+
 	&__row {
 		position: absolute;
 		left: 0;
 		right: 0;
-		height: 80%;
+		height: 85%;
 	}
 }
 
